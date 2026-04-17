@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    background: url("https://wallpapercave.com/wp/wp4768358.jpg")center/cover;
+    height: 100vh;
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+form{
+    background:rgba(0,0,0,0.25);
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+h1{
+    color: rgba( 255,255,255,0.65);
+    font-family: "Bebas Neue";
+    text-align: center;
+
+
+
+}
+
+input,button{
+    margin-top: 3px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: "Bebas Neue";
+
+
+
+
+}
