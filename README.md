@@ -7,18 +7,22 @@
 
 <div align="justify">
 <h2>PYTHON</h2>
-<img <img width="1870" height="1047" alt="image" src="https://github.com/user-attachments/assets/509129c3-3b01-4802-a314-b6236bfa09ba" />
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/ddad22f2-8d6e-48f7-84aa-1b8ac50c97c5" />
+
 
 
 <div align="justify">
 <h2>HTML</h2>
-<img width="1499" height="972" alt="image" src="https://github.com/user-attachments/assets/63f2c9b2-c7a0-4dd5-afef-9bc08d9a5016" />
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/66c83695-4cce-4d2f-aff4-8f00436c73a2" />
+
 
 <div align="justify">
 <h2>CSS</h2>
-<img width="1495" height="971" alt="image" src="https://github.com/user-attachments/assets/5a891882-992b-47b4-a423-fee39b4fbb0c" />
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/bdcb3d70-8676-4e49-a850-f20f5db348dc" />
+
 
 
 <div align="justify">
 <h2>SITE</h2>
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/8d167a56-51f6-41d9-994d-4d5e02392e79" />
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/97585c53-8b08-4d46-9905-e2bc40d10fe9" />
+
