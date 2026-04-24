@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Nabla&display=swap');
 
 body{
-    background: url("https://wallpapercave.com/wp/wp4768358.jpg")center/cover;
+    background: url("https://wallpapercave.com/wp/wp11068436.jpg")center/cover;
     height: 100vh;
     display: flex;
     margin: 0;
@@ -11,11 +12,14 @@ body{
 
 
 
-form{
+form {
     background:rgba(0,0,0,0.25);
-    padding: 10px;
-    border-radius: 10px;
-    width: 200px;
+    backdrop-filter: blur(10px);    
+    font-family: "Bebas Neue";
+    padding: 15px;         
+    border-radius: 20px;   
+    width: 280px;          
+    border: 1px solid rgba(255, 255, 255, 0.1); 
 }
 
 h1{
@@ -27,13 +31,41 @@ h1{
 
 }
 
-input,button{
-    margin-top: 3px;
+input, button {
+    margin-bottom: 15px; 
     width: 100%;
     box-sizing: border-box;
-    font-family: "Bebas Neue";
+    font-family: "Bungee";
+    
+    border: 2px solid #ff0000;
+    border-radius: 10px;
+    padding: 12px;
+    background-color: rgba(255, 255, 255, 0.05); 
+    color: white;         
+    outline: none;
+    transition: 0.3s;      
+}
 
 
+input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
 
 
+input:focus {
+    border-color: white;   
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+button {
+    background-color: #ff0000;
+    color: black;          
+    cursor: pointer;
+    margin-top: 10px;
+    border: none;          
+}
+
+button:hover {
+    background-color: white;
+    transform: scale(1.05);  
 }
