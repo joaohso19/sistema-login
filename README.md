@@ -24,5 +24,5 @@
 
 <div align="justify">
 <h2>SITE</h2>
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/97585c53-8b08-4d46-9905-e2bc40d10fe9" />
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/65415361-b28c-480d-a361-23f949863882" />
 
