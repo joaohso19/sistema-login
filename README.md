@@ -91,5 +91,3 @@ Dentro do diret√≥rio do projeto na VM, o script em Python foi colocado em execu√
 
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/f2d0a2fb-0787-4efb-a985-fa9f8fbfa26b" />
 
-
-
