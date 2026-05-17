@@ -28,16 +28,19 @@ Para permitir que a máquina real (Host) consiga acessar os serviços internos d
 Dentro do ambiente Ubuntu, foram executados os seguintes comandos via terminal para atualizar o sistema, instalar o servidor SSH e liberar as portas necessárias no firewall:
 
 Instalação do Servidor OpenSSH:
+
 <img width="489" height="108" alt="image" src="https://github.com/user-attachments/assets/bbb2f8a0-fda6-47ce-abac-c397677baced" />
 
 ---
 
 O serviço foi iniciado e o seu estado foi verificado com o utilitário systemctl, confirmando que o SSH estava ativo (active (running)) e a escutar na porta 22.
+
 <img width="487" height="319" alt="image" src="https://github.com/user-attachments/assets/daa27af1-cd49-4eef-9843-f9eb5f10baaf" />
 
 ---
 
 Para permitir o tráfego da aplicação Web que seria executada posteriormente, liberou-se a porta 8000/tcp no firewall nativo do Linux (UFW) e o serviço foi ativado:
+
 <img width="815" height="462" alt="image" src="https://github.com/user-attachments/assets/44408345-de9f-408b-84a3-4660fa999594" />
 
 ---
