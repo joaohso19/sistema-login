@@ -78,7 +78,7 @@ Utilizando o terminal integrado do VS Code (conectado via SSH à VM), navegou-se
 
 ---
 
-Dentro do diretório do projeto na VM, o script em Python foi colocado em execução, fazendo o acesso do Sistema Login via VM Ubunte
+Dentro do diretório do projeto na VM, o script em Python foi colocado em execução, fazendo o acesso do Sistema Login via VM Ubuntu
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/f5d1742e-d3e0-4612-9f16-a29a2ad1ad68" />
 
 ---
