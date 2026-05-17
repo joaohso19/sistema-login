@@ -1,6 +1,7 @@
 <h1 align="center">SISTEMA DE LOGIN - RELATÓRIO</h1>
 
 ### 1. Criação e Configuração da Máquina Virtual
+
 <img width="367" height="60" alt="image" src="https://github.com/user-attachments/assets/7994715d-af32-4643-a605-32fcc675c24c" />
 
 ---
@@ -16,6 +17,7 @@ Para permitir que a máquina real (Host) consiga acessar os serviços internos d
 * **IP do Hospedeiro:** `127.0.0.1`
 * **Porta do Hospedeiro:** `2222`
 * **Porta do Convidado:** `22`
+  
 <img width="1277" height="801" alt="image" src="https://github.com/user-attachments/assets/55a93a94-5bed-4e62-9e7e-f127190bc4c7" />
 
 ---
@@ -47,6 +49,7 @@ Para permitir o tráfego da aplicação Web que seria executada posteriormente, 
 
 ### 4. Teste de Conexão SSH via Prompt de Comando (Host)
 Para validar se o redirecionamento de portas e o serviço SSH estavam operantes, realizou-se o acesso através do Prompt de Comando do Windows (Host) apontando para a porta configurada (2222):
+
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/e58bccba-ed17-4d33-afa9-079a88a90b4a" />
 
 ---
@@ -62,26 +65,31 @@ O primeiro passo foi abrir o Visual Studio Code na máquina real (Windows) e usa
     Esse comando diz ao VS Code para se conectar ao IP local (127.0.0.1) na porta 2222
 
     O VS Code então inicializou o VS Code Server dentro do Ubuntu. Isso permite que você edite arquivos e rode comandos na VM usando a interface gráfica do seu Windows.
+    
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/5f3c39dd-f948-4ffe-92f4-5b0e870503a6" />
 
 ---
 
 O **VS Code Server** foi inicializado automaticamente dentro do Ubuntu, permitindo o gerenciamento do sistema de arquivos `/home/user/` de forma gráfica e integrada.
+
 <img width="947" height="1079" alt="image" src="https://github.com/user-attachments/assets/e8135cb3-b83b-4065-85ff-6e9dfaaf9f6e" />
 
 ---
 
 A pasta contendo o projeto pré-existente SISTEMA-LOGIN foi transferida diretamente da máquina real para o ambiente virtualizado do Ubuntu através da funcionalidade de arrastar e soltar (drag-and-drop) da interface gráfica do VS Code.
+
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/9868e142-83b7-4ea5-b567-9a464021a22f" />
 
 ---
 
 Utilizando o terminal integrado do VS Code (conectado via SSH à VM), navegou-se até à pasta do projeto e instalou-se o framework Flask:
+
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/ac34b92b-fa1d-4b1b-94c1-b577e2b734d7" />
 
 ---
 
 Dentro do diretório do projeto na VM, o script em Python foi colocado em execução, fazendo o acesso do Sistema Login via VM Ubuntu
+
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/f5d1742e-d3e0-4612-9f16-a29a2ad1ad68" />
 
 ---
